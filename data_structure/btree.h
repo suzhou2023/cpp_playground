@@ -21,6 +21,7 @@ public:
   void preOrderStack(BTree *t);
   void inOrderStack(BTree *t);
   void postOrderStack(BTree *t);
+  void levelOrder(BTree *t);
 
   BTree *root;
 };

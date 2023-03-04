@@ -34,4 +34,8 @@ int main()
   cout << "postOrder: ";
   tree.postOrderStack(tree.root);
   cout << endl;
+
+  cout << "levelOrder: ";
+  tree.levelOrder(tree.root);
+  cout << endl;
 }

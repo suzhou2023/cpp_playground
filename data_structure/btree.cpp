@@ -1,6 +1,7 @@
 #include <iostream>
 #include "btree.h"
 #include "stack.h"
+#include "queue.h"
 
 using namespace std;
 
@@ -133,5 +134,27 @@ void Tree::postOrderStack(BTree *t)
       stack.push(node);
       ptr = node->right;
     }
+  }
+}
+
+void Tree::levelOrder(BTree *t)
+{
+  if (!t)
+    return;
+
+  Queue<BTree *> queue = Queue<BTree *>(100);
+  queue.enQueue(t);
+
+  BTree *node;
+  BTree *&rp = node;
+
+  while (!queue.isEmpty())
+  {
+    queue.deQueue(rp);
+    cout << " " << rp->value;
+    if (rp->left)
+      queue.enQueue(rp->left);
+    if (rp->right)
+      queue.enQueue(rp->right);
   }
 }
