@@ -201,30 +201,6 @@ data_structure/btree.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithm.dir/build.make CMakeFiles/algorithm.dir/data_structure/btree.cpp.s
 .PHONY : data_structure/btree.cpp.s
 
-data_structure/stack.o: data_structure/stack.cpp.o
-.PHONY : data_structure/stack.o
-
-# target to build an object file
-data_structure/stack.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithm.dir/build.make CMakeFiles/algorithm.dir/data_structure/stack.cpp.o
-.PHONY : data_structure/stack.cpp.o
-
-data_structure/stack.i: data_structure/stack.cpp.i
-.PHONY : data_structure/stack.i
-
-# target to preprocess a source file
-data_structure/stack.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithm.dir/build.make CMakeFiles/algorithm.dir/data_structure/stack.cpp.i
-.PHONY : data_structure/stack.cpp.i
-
-data_structure/stack.s: data_structure/stack.cpp.s
-.PHONY : data_structure/stack.s
-
-# target to generate assembly for a file
-data_structure/stack.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithm.dir/build.make CMakeFiles/algorithm.dir/data_structure/stack.cpp.s
-.PHONY : data_structure/stack.cpp.s
-
 data_structure/utils.o: data_structure/utils.cpp.o
 .PHONY : data_structure/utils.o
 
@@ -267,9 +243,6 @@ help:
 	@echo "... data_structure/btree.o"
 	@echo "... data_structure/btree.i"
 	@echo "... data_structure/btree.s"
-	@echo "... data_structure/stack.o"
-	@echo "... data_structure/stack.i"
-	@echo "... data_structure/stack.s"
 	@echo "... data_structure/utils.o"
 	@echo "... data_structure/utils.i"
 	@echo "... data_structure/utils.s"

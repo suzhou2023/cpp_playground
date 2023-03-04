@@ -111,24 +111,10 @@ CMakeFiles/algorithm.dir/data_structure/btree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/algorithm.dir/data_structure/btree.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/suzhou/workspace/demos/cpp_playground/data_structure/btree.cpp -o CMakeFiles/algorithm.dir/data_structure/btree.cpp.s
 
-CMakeFiles/algorithm.dir/data_structure/stack.cpp.o: CMakeFiles/algorithm.dir/flags.make
-CMakeFiles/algorithm.dir/data_structure/stack.cpp.o: data_structure/stack.cpp
-CMakeFiles/algorithm.dir/data_structure/stack.cpp.o: CMakeFiles/algorithm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/suzhou/workspace/demos/cpp_playground/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/algorithm.dir/data_structure/stack.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/algorithm.dir/data_structure/stack.cpp.o -MF CMakeFiles/algorithm.dir/data_structure/stack.cpp.o.d -o CMakeFiles/algorithm.dir/data_structure/stack.cpp.o -c /Users/suzhou/workspace/demos/cpp_playground/data_structure/stack.cpp
-
-CMakeFiles/algorithm.dir/data_structure/stack.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/algorithm.dir/data_structure/stack.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/suzhou/workspace/demos/cpp_playground/data_structure/stack.cpp > CMakeFiles/algorithm.dir/data_structure/stack.cpp.i
-
-CMakeFiles/algorithm.dir/data_structure/stack.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/algorithm.dir/data_structure/stack.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/suzhou/workspace/demos/cpp_playground/data_structure/stack.cpp -o CMakeFiles/algorithm.dir/data_structure/stack.cpp.s
-
 CMakeFiles/algorithm.dir/data_structure/utils.cpp.o: CMakeFiles/algorithm.dir/flags.make
 CMakeFiles/algorithm.dir/data_structure/utils.cpp.o: data_structure/utils.cpp
 CMakeFiles/algorithm.dir/data_structure/utils.cpp.o: CMakeFiles/algorithm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/suzhou/workspace/demos/cpp_playground/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/algorithm.dir/data_structure/utils.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/suzhou/workspace/demos/cpp_playground/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/algorithm.dir/data_structure/utils.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/algorithm.dir/data_structure/utils.cpp.o -MF CMakeFiles/algorithm.dir/data_structure/utils.cpp.o.d -o CMakeFiles/algorithm.dir/data_structure/utils.cpp.o -c /Users/suzhou/workspace/demos/cpp_playground/data_structure/utils.cpp
 
 CMakeFiles/algorithm.dir/data_structure/utils.cpp.i: cmake_force
@@ -144,7 +130,6 @@ algorithm_OBJECTS = \
 "CMakeFiles/algorithm.dir/algorithm/sort/bubble.cpp.o" \
 "CMakeFiles/algorithm.dir/algorithm/sort/quick.cpp.o" \
 "CMakeFiles/algorithm.dir/data_structure/btree.cpp.o" \
-"CMakeFiles/algorithm.dir/data_structure/stack.cpp.o" \
 "CMakeFiles/algorithm.dir/data_structure/utils.cpp.o"
 
 # External object files for target algorithm
@@ -153,11 +138,10 @@ algorithm_EXTERNAL_OBJECTS =
 libalgorithm.a: CMakeFiles/algorithm.dir/algorithm/sort/bubble.cpp.o
 libalgorithm.a: CMakeFiles/algorithm.dir/algorithm/sort/quick.cpp.o
 libalgorithm.a: CMakeFiles/algorithm.dir/data_structure/btree.cpp.o
-libalgorithm.a: CMakeFiles/algorithm.dir/data_structure/stack.cpp.o
 libalgorithm.a: CMakeFiles/algorithm.dir/data_structure/utils.cpp.o
 libalgorithm.a: CMakeFiles/algorithm.dir/build.make
 libalgorithm.a: CMakeFiles/algorithm.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/suzhou/workspace/demos/cpp_playground/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libalgorithm.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/suzhou/workspace/demos/cpp_playground/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libalgorithm.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/algorithm.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/algorithm.dir/link.txt --verbose=$(VERBOSE)
 

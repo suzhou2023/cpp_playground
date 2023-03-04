@@ -7,7 +7,7 @@ using namespace std;
 
 int main()
 {
-  Stack stack = Stack(20);
+  Stack<int> stack = Stack<int>(20);
   for (int i = 0; i < 10; i++)
   {
     stack.push(rand() % 100);

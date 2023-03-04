@@ -5,8 +5,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/algorithm.dir/algorithm/sort/quick.cpp.o.d"
   "CMakeFiles/algorithm.dir/data_structure/btree.cpp.o"
   "CMakeFiles/algorithm.dir/data_structure/btree.cpp.o.d"
-  "CMakeFiles/algorithm.dir/data_structure/stack.cpp.o"
-  "CMakeFiles/algorithm.dir/data_structure/stack.cpp.o.d"
   "CMakeFiles/algorithm.dir/data_structure/utils.cpp.o"
   "CMakeFiles/algorithm.dir/data_structure/utils.cpp.o.d"
   "libalgorithm.a"
