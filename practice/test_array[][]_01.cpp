@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+// 二维数组及其指针相关
 int main()
 {
   // 不要改变元素值，否则下面的用例答案就不对了
